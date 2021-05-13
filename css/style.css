@@ -54,7 +54,7 @@
     background-position: center;
     background-size: 70%, 20%;
     background-repeat: no-repeat, repeat;
-    margin: 40px;
+    margin: 30px;
     
 } 
 /* #cardBody::before{
@@ -72,7 +72,7 @@
 h1{
     font-size: 50px;
     text-transform: uppercase;
-    text-align: center;
+   
     font-family: 'Oleo Script', cursive;
     font-weight: 700;
     background: url('../images/eid.gif');
@@ -81,7 +81,7 @@ h1{
     color: transparent;
     transform: scaleX(1) skew(20deg, 170deg);
     padding: 20px;
-    margin: 10px auto;
+    margin: 0 auto;
     box-shadow: inset -5px 6px 20px 5px #41f1e0e6;
     text-shadow: 34px 52px 16px #500025e3;
     width: 400px;
@@ -139,17 +139,17 @@ h1{
 }
 
 h2{
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
-    text-align: center;
+    
     font-family: 'Oleo Script', cursive;
     font-weight: 700;
-    background: url(https://tubelife.org/wp-content/uploads/2018/06/Eid-Mubarak-Glitters-Gif.gif);
+    background: url('../images/eid.gif');
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    padding: 20px;
-    margin: 10px auto;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
     box-shadow: inset -5px 6px 20px 5px #41f1a0d4;
     text-shadow: 34px 52px 16px #500025e3;
     width: 425px;
@@ -171,7 +171,7 @@ h2{
     display: block;
     position: absolute;
     top: 47%;
-    left: 40%;
+    left: 35%;
     border: 9px solid #4df1ae;
     font-size: 30px;
     color: #8dff68;
@@ -195,4 +195,13 @@ h2{
         
         clip-path: circle(100% at 50% 50%);
     }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    /* h1,h2 {
+      position: absolute;
+      left: 20px;
+    } */
 }
