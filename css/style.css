@@ -39,10 +39,10 @@
    
 
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
     animation: cardBody 5s ease-in;
     transition: ease-in-out;
 
@@ -52,7 +52,8 @@
     background-image: url('https://images.unsplash.com/photo-1599420807972-b30404dca676?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80'),
     url('https://images.unsplash.com/photo-1603704436599-fd8917e361c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=282&q=80');
     background-position: center;
-    background-size: 70%, 20%;
+        background-size: 63%,
+        21%;
     background-repeat: no-repeat, repeat;
     margin: 30px;
     
@@ -148,7 +149,7 @@ h2{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    padding: 20px 0 0 0;
+    padding: 20px;
     margin: 0 auto;
     box-shadow: inset -5px 6px 20px 5px #41f1a0d4;
     text-shadow: 34px 52px 16px #500025e3;
@@ -202,11 +203,12 @@ h2{
 @media screen and (max-width: 600px) {
      h2 {
       font-size: 50px;
-      
+   
       width: 350px;
     }
     h1 { 
-        padding: 0;  
+        padding:  0 0 0 -10px;  
         width: 320px;
+        
     }
 }
