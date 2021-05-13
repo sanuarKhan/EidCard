@@ -43,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* overflow: hidden; */
-    animation: cardBody 5s ease-in;
+    animation: cardBody 5s ease-in 5s;
     transition: ease-in-out;
 
     
