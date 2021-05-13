@@ -213,11 +213,11 @@ h2{
 @media screen and (max-width: 600px) {
      h2 {
       font-size: 50px;
-       width: 100%;
+       width: 120%;
         margin: -40px;
     }
     h1 { 
-    width: 100%;
+    width: 120%;
     margin: -40px;
         
     }
