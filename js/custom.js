@@ -1,14 +1,18 @@
 var coverBG = document.getElementById("cover");
 var cardBody = document.getElementById("imgCard");
-var audio = document.getElementById("audio");
+var video = document.getElementById("bgVideo");
 
 function clickMe() {
     cardBody.style.display = "block";
-
     coverBG.style.display = "none";
-    if (clickMe() == true) {
-        audio.attributes.autoplay = true;
-    }
+    
+    if (video.paused) {
+    video.play();
+
+  } else {
+    video.pause();
+  }
+
 
     
 }
